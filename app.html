@@ -1,0 +1,127 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style4.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<body>
+<nav>
+<label class="logo">JAWS</label>
+<ul>
+<li><a style="color: #800000"href="#">HOME </a></li>
+<li><a href="#">PRODUCT</a></li>
+<li><a href="#">ABOUR US</a></li>
+<li><a href="#">CONTACT US</a></li>
+<div>
+<form class="search" >
+    <input  type="text" placeholder="Search..">
+    <i class ="fa fa-search"></i>
+</form>
+
+</div>
+</ul>
+
+</nav>
+<script type="text/javaScript">
+var i=0;
+var image=[];
+var time=3000;
+image[0]='img1.jpg';
+image[1]='img2.jpg';
+image[2]='img3.jpg';
+image[3]='img4.jpg';
+
+function changeImg(){
+    document.slide.src=image[i];
+    if(i<image.length-1){
+        i++;
+        }
+        else{
+            i=0;
+        }
+        setTimeout("changeImg()",time)  
+}
+window.onload=changeImg;
+
+</script>
+<section class="hero">
+<img  class="parallax" name="slide" width="100%" height="700px"  >
+
+    <div class="text-wrapper">
+        <div class="border" style="border-style: dashed">
+        <h6 class="headline" style="color: #800000">JORDAN ARMAMENT</h6>
+        <h5 Class="sub-headline">AND WEAPON<br/> SYSTEM</h5>
+        </div>
+    </div>
+    </section>
+    
+    
+   
+
+    <img src="img6.jpg" class="am">
+    <img src="img8.jpg"class="am2">
+    <img src="img7.jpg"class="am3">
+<div class="jaws">
+    <h4>Special Offer:</h4> 
+    <p class="p">Cheak<label style="color: #800000;">JAWS</label>Heavy Pistol</p>
+     
+  </div>
+  <div >
+  <i class='fas fa-comments' style='font-size:24px'></i>
+  <h4 class="comment">CUSTOMER SUPPORT</h4>
+  <P class="comm">Question and concerns ? Find<br/>
+information on how to contact our<br/>
+Customer Service department.</P>
+
+<i class='fas fa-shield-alt' style='font-size:24px'></i>
+<h4 class="shield">WARRANTIES</h4>
+<hr  class="hr">
+<p class="jo">Register your <label style="color:#800000 "> JAWS JO</label> fiream and <br/>find warranty details.</p>
+<i class="fa fa-plus-circle" style="font-size:24px"></i>
+<h4 class="owners">OWNERS MANUALS</h4>
+<p class="own">Download owners manuals for your <br/> <label style="color:#800000">JAWS JO</label> pistols and rifles</p>
+<i class="fa fa-question-circle" style="font-size:24px"></i>
+<h4 class="ques">FAQS</h4>
+<p class="answ">Find answers to the most frequently-<br/>
+asked questions about our products<br/>
+and services.</p>
+</div>
+
+  <nav class="nav1" >
+    <ul>
+    <li><a href="#" style="color: grey">PRIVACY POLICY</a></li>
+    <li><a href="#"style="color: grey">RETURN POLICY</a></li>
+    <li><a href="#" style="color: grey">TERMS OF SALE</a></li>
+    <li><a href="#" style="color: grey" class="follow">FOLLOW US</a></li>
+    <div class="middle">
+    <li><a href="#" class="fa fa-facebook"></a></li>
+    <li><a hef="#" class ="fa fa-twitter"></a> </li>
+    <li><a hef="#" class ="fa fa-instagram"></a> </li>
+    <li><a hef="#" class ="fa fa-youtube"></a> </li>
+    <li><a hef="#" class ="fa fa-envelope"></a> </li>
+    
+   
+    </div>
+    </ul>
+    </nav>
+
+    <div class="vr"></div>
+    <div class="vr1"></div>
+    <div class="vr2"></div>
+    <div class="vr3"></div>
+    <div class="vr4"></div>
+
+    <footer>
+        <div class="copy-right">
+        <label class="logo2">JAWS</label>
+        <p class="copy">&copy;JAWS-JORDAN 2020.All Rights Reserved.</p>
+        <h2 class="h2">Amman , Jordan</h2>
+        <p class='fas fa-map-marker-alt' style='font-size:30px;color:red'></p>
+        
+
+         </div>
+    </footer>
+</body>
+
+</html>
